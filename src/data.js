@@ -1,6 +1,5 @@
 export const data = [
     {
-        "Instructions": "delete everything in this object and make your own JSON object using different data.",
         "Title": "The Graduate",
         "Year": "1967",
         "Rated": "Approved",
