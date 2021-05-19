@@ -14,7 +14,7 @@ function App() {
         <div className="list">
           {data.map((movie) => {
             console.log(movie);
-            <MovieCard movie={movie} />
+            return <MovieCard movie={movie} key={movie.imdbID} />
           })}
         </div>
       </div>
