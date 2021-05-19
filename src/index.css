@@ -97,3 +97,68 @@ code {
   border: none;
   font-size: 15px;
 }
+
+.movie-card {
+  background: #fff;
+  padding: 0;
+  border: none;
+  border-radius: 3px;
+  box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #f1f1f1;
+  display: flex;
+}
+
+.movie-card:not(:first-child) {
+  margin-top: 20px;
+}
+
+.movie-card:last-child {
+  margin-bottom: 50px;
+}
+
+.movie-card .left {
+  flex: 1;
+}
+.movie-card .left img {
+  height: 250px;
+}
+
+.movie-card .right {
+  position: relative;
+  flex: 10;
+}
+
+.movie-card .title {
+  padding: 10px 20px;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.footer .rating {
+  font-size: 20px;
+  font-weight: 600
+}
+.footer button {
+  font-size: 15p;
+  padding: 7px 10px;
+  text-shadow: none;
+  border-radius: 3px;
+  border: none;
+  font-weight: 600;
+}
+
+.favourite-btn {
+  background-color: #2185d0;
+  color: #fff;
+}
+
+.unfavourite-btn {
+  background-color: #db2828;
+  color: #fff;
+  text-shadow: none;
+}
+
+.no-movies {
+  padding: 20px 0;
+  font-size: 20px;
+  color: #6d6d6d;
+}
