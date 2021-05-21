@@ -1,14 +1,14 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
@@ -54,7 +54,7 @@ code {
 }
 
 .search-results .movie-info button {
-  margin : 20px 10px;
+  margin: 20px 10px;
   background: #21ba45;
   color: #fff;
   font-weight: 600;
@@ -82,7 +82,7 @@ code {
 .search-container button:focus,
 .footer button:focus,
 .search-results .movie-info button:focus {
-  outline : none;
+  outline: none;
 }
 .search-container button:hover,
 .footer button:hover,
@@ -93,7 +93,7 @@ code {
 #search-btn {
   background: #f2711c;
   height: 45px;
-  color:cornsilk;
+  color: cornsilk;
   border: none;
   font-size: 15px;
   border-radius: 3px;
@@ -138,7 +138,7 @@ code {
 
 .footer .rating {
   font-size: 20px;
-  font-weight: 600
+  font-weight: 600;
 }
 
 .footer button {
@@ -165,6 +165,7 @@ code {
   font-weight: 600;
   display: inline-flex;
   margin: 2px 2px;
+  cursor: pointer;
 }
 
 .unfavourite-btn {
