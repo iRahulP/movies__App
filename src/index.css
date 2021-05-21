@@ -151,6 +151,18 @@ code {
   color: #fff;
 }
 
+.tab {
+  background-color: #2185d0;
+  color: #fff;
+  width: fit-content;
+  border: #fff;
+  border-radius: 5px;
+  padding: 5px;
+  font-weight: 600;
+  display: inline-flex;
+  margin: 2px 2px;
+}
+
 .unfavourite-btn {
   background-color: #db2828;
   color: #fff;
