@@ -1,4 +1,9 @@
-import { ADD_MOVIES, ADD_TO_FAVOURITES, REMOVE_FROM_FAVOURITES, SET_SHOW_FAVOURITES } from '../actions';
+import {
+    ADD_MOVIES,
+    ADD_TO_FAVOURITES,
+    REMOVE_FROM_FAVOURITES,
+    SET_SHOW_FAVOURITES
+} from '../actions';
 
 const initialMovieState = {
     list: [],
@@ -7,7 +12,7 @@ const initialMovieState = {
 }
 
 export function movies(state = initialMovieState, action) {
-
+    console.log('Movies Reducer');
     switch (action.type) {
         case ADD_MOVIES:
             return {
@@ -42,6 +47,7 @@ const initialSearchState = {
 }
 
 export function search(state = initialSearchState, action) {
+    console.log('Search Reducer');
     return state;
 }
 
@@ -52,7 +58,7 @@ const initialRootState = {
 
 export default function rootReducer(state = initialRootState, action) {
     return {
-        movies: movies(state, action),
-        search: search(state, action)
+        movies: movies(state.movies, action),
+        search: search(state.search, action)
     };
 }
