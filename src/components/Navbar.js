@@ -13,16 +13,17 @@ class Navbar extends React.Component {
     }
 
     handleAddToMovies = (movie) => {
-        this.props.dispatch(addMovieToList(movie));
+        const { dispatch } = this.props;
+        dispatch(addMovieToList(movie));
         this.setState({
             showSearchResults: false
         });
     }
 
     handleSearch = () => {
+        const { dispatch } = this.props;
         const { searchText } = this.state;
-
-        this.props.dispatch(handleMovieSearch());
+        dispatch(handleMovieSearch(searchText));
     }
 
     handleChange = (e) => {
