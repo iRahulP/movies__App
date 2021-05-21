@@ -92,10 +92,13 @@ code {
 
 #search-btn {
   background: #f2711c;
-  height: 43px;
-  color: #fff;
+  height: 45px;
+  color:cornsilk;
   border: none;
   font-size: 15px;
+  border-radius: 3px;
+  border-color: black;
+  margin-left: 5px;
 }
 
 .movie-card {
@@ -137,6 +140,7 @@ code {
   font-size: 20px;
   font-weight: 600
 }
+
 .footer button {
   font-size: 15p;
   padding: 7px 10px;

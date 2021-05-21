@@ -1,12 +1,12 @@
 import React from 'react';
 
 class Navbar extends React.Component {
-    render () {
+    render() {
         return (
             <div className="nav">
                 <div className="search-container">
                     <input />
-                    <button id="btn">Search</button>
+                    <button id="search-btn">Search</button>
                 </div>
             </div>
         );
@@ -14,4 +14,3 @@ class Navbar extends React.Component {
 }
 
 export default Navbar;
- 
