@@ -38,7 +38,8 @@ code {
 }
 
 .search-results {
-  position: relative;
+  display: table-row;
+  position: absolute;
   background: #fff;
   width: 100%;
   box-sizing: border-box;
@@ -49,6 +50,7 @@ code {
 
 .search-results .movie-info {
   display: flex;
+  background: #fff;
   flex-direction: column;
   justify-content: space-between;
 }
@@ -61,10 +63,15 @@ code {
   font-size: 14px;
   border: none;
   padding: 9px 0;
-  border-radius: 4px;
+  border-radius: 3px;
 }
 
-.search-results {
+.search-result {
+  display: inline-flex;
+  z-index: 1;
+}
+
+.search-pic {
   height: 150px;
 }
 
@@ -75,6 +82,7 @@ code {
 .search-results > div span {
   font-size: 20px;
   padding: 10px;
+  color: black;
   font-weight: 600;
 }
 
