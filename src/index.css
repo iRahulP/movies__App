@@ -38,6 +38,7 @@ code {
 }
 
 .search-results {
+  z-index: 3;
   display: table-row;
   position: absolute;
   background: #fff;
