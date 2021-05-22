@@ -56,6 +56,8 @@ export function handleMovieSearch(movie) {
             .then(response => response.json())
             .then(movie => {
                 console.log('movie', movie);
+                //dispatch and action
+                //dispatch({ type: 'ADD_SEARCH_RESULT',movie })
             });
     }
     // return {
