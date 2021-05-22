@@ -112,9 +112,9 @@ code {
 
 .movie-card {
   background: #fff;
-  padding: 0;
+  padding: 10px;
   border: none;
-  border-radius: 3px;
+  border-radius: 5px;
   box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #f1f1f1;
   display: flex;
 }
@@ -129,6 +129,7 @@ code {
 
 .movie-card .left {
   flex: 1;
+  padding: inherit;
 }
 .movie-card .left img {
   height: 250px;
@@ -137,21 +138,23 @@ code {
 .movie-card .right {
   position: relative;
   flex: 10;
+  padding: inherit;
 }
 
 .movie-card .title {
   padding: 10px 20px;
-  font-size: 25px;
-  font-weight: 600;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: monospace;
 }
 
 .footer .rating {
   font-size: 20px;
-  font-weight: 600;
+  font-family: monospace;
 }
 
 .footer button {
-  font-size: 15p;
+  font-size: 15px;
   padding: 7px 10px;
   text-shadow: none;
   border-radius: 3px;
