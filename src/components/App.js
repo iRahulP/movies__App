@@ -3,6 +3,7 @@ import MovieCard from './MovieCard';
 import React from 'react';
 import { data } from "../data";
 import { addMovies, setShowFavourites } from '../actions';
+import { StoreContext } from '../index';
 
 class App extends React.Component {
   componentDidMount() {
@@ -42,7 +43,6 @@ class App extends React.Component {
     return (
       <div className="App">
         <Navbar
-          dispatch={this.props.store.dispatch}
           search={search}
         />
         <div className="main">
@@ -68,4 +68,14 @@ class App extends React.Component {
   }
 }
 
-export default App;
+class AppWraper extends React.Component {
+  render() {
+    return (
+      <StoreContext.Consumer>
+        {(store) => <App store={store} />}
+      </StoreContext.Consumer>
+    );
+  }
+}
+
+export default AppWraper;
