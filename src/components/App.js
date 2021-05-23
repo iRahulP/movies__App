@@ -3,7 +3,7 @@ import MovieCard from './MovieCard';
 import React from 'react';
 import { data } from "../data";
 import { addMovies, setShowFavourites } from '../actions';
-import { StoreContext } from '../index';
+// import { StoreContext } from '../index';
 import { connect } from '../index';
 
 class App extends React.Component {

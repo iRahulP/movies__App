@@ -5,7 +5,6 @@ import thunk from 'redux-thunk'
 import './index.css';
 import App from './components/App';
 import rootReducer from './reducers';
-import ConnectedComponent from './components/App';
 
 //curried form of function :: {logger(obj, next, action)}
 //logger(obj)(next)(action)
