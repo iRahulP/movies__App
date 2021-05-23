@@ -86,6 +86,6 @@ export function search(state = initialSearchState, action) {
 // }
 
 export default combineReducers({
-    movies: movies,
-    search: search
+    movies,
+    search
 });
