@@ -1,4 +1,4 @@
-import React, { createContext } from 'react';
+import React, { /*createContext*/ } from 'react';
 import { Provider } from 'react-redux';
 import ReactDOM from 'react-dom';
 import { createStore, applyMiddleware } from 'redux';
